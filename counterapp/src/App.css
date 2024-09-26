@@ -1,0 +1,32 @@
+.top-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border:1px solid rgba(109, 7, 7, 0.747);
+  width:500px;
+  margin-top: 30px;
+  margin-left: 400px;
+  padding: 50px;
+  border-radius: 15px;
+  border-width: 3px;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: space-around; 
+}
+.button {
+  padding: 5px 10px; /* Adjust the padding as needed */
+  margin-right: 10px;
+  background-color: rgba(9, 66, 171, 0.918);
+  color: whitesmoke;
+  border-radius: 10px;
+  border-color: rgb(255, 89, 0);
+}
